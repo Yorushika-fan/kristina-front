@@ -4,7 +4,6 @@ import { utils, writeFile } from "xlsx";
 defineOptions({
   name: "Excel"
 });
-
 interface DataItem {
   readonly id: string;
   [propName: string]: string;
@@ -66,6 +65,7 @@ const exportExcel = () => {
   utils.book_append_sheet(workBook, workSheet, "数据报表");
   writeFile(workBook, "tableV2.xlsx");
 };
+
 </script>
 
 <template>

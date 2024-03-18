@@ -31,6 +31,18 @@ export const localesConfigs = {
   en: {
     ...siphonI18n("en"),
     ...enLocale
+  },
+  ja: {
+    ...siphonI18n("ja"),
+    ...enLocale
+  },
+  ru: {
+    ...siphonI18n("ru"),
+    ...enLocale
+  },
+  ko: {
+    ...siphonI18n("ko"),
+    ...enLocale
   }
 };
 

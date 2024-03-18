@@ -1,19 +1,18 @@
 import { $t } from "@/plugins/i18n";
-import { editor } from "@/router/enums";
 
 export default {
-  path: "/editor",
-  redirect: "/editor/index",
+  path: "/writing",
+  redirect: "/writing/index",
   meta: {
     icon: "ep:edit",
     title: $t("menus.hseditor"),
-    rank: editor
+    rank: 1
   },
   children: [
     {
-      path: "/editor/index",
-      name: "Editor",
-      component: () => import("@/views/editor/index.vue"),
+      path: "/writing/index",
+      name: "writing",
+      component: () => import("@/views/writing/index.vue"),
       meta: {
         title: $t("menus.hseditor"),
         keepAlive: true

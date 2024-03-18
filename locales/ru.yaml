@@ -1,0 +1,187 @@
+buttons:
+  hsLoginOut: ВходВыход
+  hsadd: Добавлять
+  hscloseAllTabs: Закрыть все вкладки
+  hscloseCurrentTab: Закрыть текущая вкладка
+  hscloseLeftTabs: Закрыть левые вкладки
+  hscloseOtherTabs: Закрыть другие вкладки
+  hscloseRightTabs: Закрыть правые вкладки
+  hscollapseAll: Свернуть все
+  hscontentExitFullScreen: Выход из контентаПолный экран
+  hscontentFullScreen: Полноэкранный контент
+  hsdelete: Удалить
+  hsedit: ''
+  hsexitfullscreen: ВыходПолноэкранный режим
+  hsexpendAll: Расширить все
+  hsfullscreen: Полноэкранный
+  hslogin: Авторизоваться
+  hsmark: Отметить/Отменить
+  hsrefreshRoute: Обновить маршрут
+  hsreload: Перезагрузить
+  hssave: Сохранять
+  hssearch: Поиск
+  hssystemSet: Открыть конфигурацию проекта
+  hswholeExitFullScreen: ВыходПолный
+  hswholeFullScreen: Полноэкранный
+login:
+  alipayLogin: Вход в систему Alipay
+  back: Назад
+  definite: Определенный
+  forget: Забыть пароль?
+  getVerifyCode: Получить код подтверждения
+  info: Секунды
+  login: Авторизоваться
+  loginSuccess: Успех входа в систему
+  password: Пароль
+  passwordDifferentReg: Два пароля не совпадают!
+  passwordReg: Пожалуйста введите пароль
+  passwordRuleReg: Формат пароля должен представлять собой любую комбинацию из 8–18 цифр.
+  passwordSureReg: Пожалуйста, введите подтверждение пароля
+  passwordUpdateReg: Пароль обновлен
+  phone: Телефон
+  phoneCorrectReg: Пожалуйста, введите правильный формат номера телефона
+  phoneLogin: Вход по телефону
+  phoneReg: Пожалуйста, введите телефон
+  privacyPolicy: политика конфиденциальности
+  qRCodeLogin: QR-код Войти
+  qqLogin: QQ Войти
+  readAccept: Я внимательно прочитал и принимаю
+  register: регистр
+  registerSuccess: Регистрация прошла успешно
+  remember: дней нет необходимости входить в систему
+  rememberInfo: >-
+    После проверки и входа в систему произойдет автоматический вход в систему
+    без ввода логина и пароля в течение указанного количества дней.
+  smsVerifyCode: SMS-код подтверждения
+  sure: надежный пароль
+  test: Пробный тест
+  thirdLogin: Третий вход
+  tickPrivacy: Пожалуйста, отметьте Политику конфиденциальности
+  tip: После сканирования кода нажмите «Подтвердить», чтобы завершить вход.
+  username: Имя пользователя
+  usernameReg: Пожалуйста, введите имя пользователя
+  verifyCode: Верифицоде
+  verifyCodeCorrectReg: Пожалуйста, введите правильный код подтверждения
+  verifyCodeReg: Пожалуйста, введите код подтверждения
+  verifyCodeSixReg: Пожалуйста, введите 6-значный код подтверждения
+  weChatLogin: Вход в WeChat
+  weiboLogin: Вход в Weibo
+menus:
+  externalLink: Vue-Pure-Администратор
+  hsAble: Способный
+  hsAbout: О
+  hsArticleManagement: ''
+  hsBarcode: Штрих-код
+  hsCascader: Районный каскадер
+  hsCategoryManagement: ''
+  hsCheckButton: Кнопка проверки
+  hsCheckCard: Проверь карту
+  hsChildMenuoverflow: Переполнение дочернего меню Показать текст всплывающей подсказки
+  hsCollapse: Крах
+  hsColorPicker: Выбор цвета
+  hsDatePicker: Выбор даты
+  hsDateTimePicker: DateTimePicker
+  hsDebounce: Отказ от дребезга
+  hsDept: Отдел управления
+  hsDownload: Скачать
+  hsElButton: Кнопка
+  hsEmbeddedDoc: Документы встроены
+  hsEpDocument: Элемент-Плюс
+  hsExcel: Экспорт Excel
+  hsExternalDoc: Внешние документы
+  hsExternalPage: Внешняя страница
+  hsFail: Страница с ошибкой
+  hsFive: '500'
+  hsFormDesign: Дизайн формы
+  hsIconSelect: Значок Выбор
+  hsInfiniteScroll: Таблица бесконечной прокрутки
+  hsLineTree: ЛинияДерево
+  hsLinkManagement: ''
+  hsList: Страница списка
+  hsListCard: Страница списка карт
+  hsLoginLog: Журнал входа в систему
+  hsMenuTree: Дерево меню
+  hsMenuoverflow: Переполнение меню Показать текст всплывающей подсказки
+  hsOnlineUser: Онлайн-пользователь
+  hsOperationLog: Журнал операций
+  hsOptimize: Директивы Debounce、Throttle、Copy、Longpress
+  hsPdf: Предварительный просмотр PDF
+  hsPiniaDocument: Пиния
+  hsPinyin: Пиньинь
+  hsPrint: Распечатать
+  hsProgress: Прогресс
+  hsPureTableBase: Базовое использование
+  hsPureTableHigh: Высокое использование
+  hsQrcode: QR код
+  hsResult: Страница результатов
+  hsRipple: Пульсация
+  hsRole: Роль Управление
+  hsRouterDocument: Vue-маршрутизатор
+  hsSensitive: Чувствительный фильтр
+  hsStatistic: Статистика
+  hsSuccess: Страница успеха
+  hsSwiper: Плагин Swiper
+  hsSystemLog: Системный журнал
+  hsSystemMenu: Меню Управление
+  hsTag: Ярлык
+  hsTagManagement: ''
+  hsTailwindcssDocument: Попутный ветерcss
+  hsText: Текстовый многоточие
+  hsTimePicker: Таймпикер
+  hsTimeline: График
+  hsUpload: Файл загружен
+  hsUser: Управление пользователями
+  hsVideoFrame: Захват видеокадра
+  hsVirtualList: Виртуальный список
+  hsViteDocument: Вите
+  hsVueDocument: Vue3
+  hsWatermark: Водяной знак
+  hsWavesurfer: Аудио визуализация
+  hsabnormal: Ненормальная страница
+  hsanimatecss: Селектор AnimateCss
+  hsblogManagement: ''
+  hsboard: Доска для рисования
+  hsbutton: Анимация кнопок
+  hscomponents: Компоненты
+  hscontextmenu: Контекстное меню
+  hscountTo: Цифровая анимация
+  hscropping: Обрезка изображения
+  hsdanmaku: Данмаку
+  hsdialog: Диалог
+  hsdraggable: Перетаскиваемый
+  hseditor: редактор
+  hsempty: Пустая страница
+  hsflowChart: Блок-схема
+  hsfourZeroFour: '404'
+  hsfourZeroOne: '403'
+  hsguide: Гид
+  hshome: Дом
+  hsjsoneditor: Редактор JSON
+  hslogin: Авторизоваться
+  hsmap: карта
+  hsmenu1: Меню1
+  hsmenu1-1: Меню1-1
+  hsmenu1-2: Меню 1-2
+  hsmenu1-2-1: Меню1-2-1
+  hsmenu1-2-2: Меню1-2-2
+  hsmenu1-3: Меню 1-3
+  hsmenu2: Меню2
+  hsmenus: Многоуровневое меню
+  hsmessage: Советы по сообщениям
+  hsseamless: Бесшовная прокрутка
+  hssegmented: Сегментированный
+  hsselector: Селектор области действия
+  hssplitPane: Разделить панель
+  hssysManagement: Управление системой
+  hssysMonitor: Системный монитор
+  hstabs: Вкладки Работают
+  hstypeit: Введи это
+  hsvideo: видео
+  hswaterfall: Водопад
+  job: ''
+  permission: Управление разрешениями
+  permissionButton: Разрешение кнопки
+  permissionPage: Разрешение страницы
+  pureutilsLink: Pure-Admin-Utils
+status:
+  hsLoad: Загрузка...

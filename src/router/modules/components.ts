@@ -7,7 +7,7 @@ export default {
   meta: {
     icon: "ep:menu",
     title: $t("menus.hscomponents"),
-    rank: components
+    rank: 20
   },
   children: [
     {

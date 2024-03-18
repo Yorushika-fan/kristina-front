@@ -7,7 +7,7 @@ export default {
   meta: {
     icon: "ri:table-line",
     title: "pure-admin-table",
-    rank: table
+    rank: 20
   },
   children: [
     {

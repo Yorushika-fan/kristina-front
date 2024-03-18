@@ -19,6 +19,21 @@ export function useTranslationLang(ref?: Ref) {
     locale.value = "en";
     ref && handleResize(ref.value);
   }
+  function translationJa() {
+    $storage.locale = { locale: "ja" };
+    locale.value = "ja";
+    ref && handleResize(ref.value);
+  }
+  function translationRu() {
+    $storage.locale = { locale: "ru" };
+    locale.value = "ru";
+    ref && handleResize(ref.value);
+  }
+  function translationKo() {
+    $storage.locale = { locale: "ko" };
+    locale.value = "ko";
+    ref && handleResize(ref.value);
+  }
 
   watch(
     () => locale.value,
@@ -36,6 +51,9 @@ export function useTranslationLang(ref?: Ref) {
     route,
     locale,
     translationCh,
-    translationEn
+    translationEn,
+    translationJa,
+    translationRu,
+    translationKo
   };
 }

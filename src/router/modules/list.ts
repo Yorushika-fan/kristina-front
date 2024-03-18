@@ -5,8 +5,8 @@ export default {
   path: "/list",
   redirect: "/list/card",
   meta: {
-    icon: "ri:list-check",
-    title: $t("menus.hsList"),
+    icon: "f7:alarm-fill",
+    title: $t("menus.job"),
     rank: list
   },
   children: [

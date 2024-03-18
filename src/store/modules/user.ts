@@ -76,9 +76,11 @@ export const useUserStore = defineStore({
     },
     /** 刷新`token` */
     async handRefreshToken(data) {
+      console.log("handlerefrsh");
       return new Promise<RefreshTokenResult>((resolve, reject) => {
         refreshTokenApi(data)
           .then(data => {
+            console.log("aopi");
             if (data) {
               setToken(data.data);
               resolve(data);

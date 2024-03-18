@@ -8,7 +8,7 @@ export default {
     icon: "ri:information-line",
     // showLink: false,
     title: $t("menus.hsabnormal"),
-    rank: error
+    rank: 20
   },
   children: [
     {

@@ -25,7 +25,15 @@ const {
   getDropdownItemClass
 } = useNav();
 
-const { t, locale, translationCh, translationEn } = useTranslationLang();
+const {
+  t,
+  locale,
+  translationCh,
+  translationEn,
+  translationJa,
+  translationRu,
+  translationKo
+} = useTranslationLang();
 </script>
 
 <template>
@@ -77,6 +85,36 @@ const { t, locale, translationCh, translationEn } = useTranslationLang();
                 <IconifyIconOffline :icon="Check" />
               </span>
               English
+            </el-dropdown-item>
+            <el-dropdown-item
+              :style="getDropdownItemStyle(locale, 'ja')"
+              :class="['dark:!text-white', getDropdownItemClass(locale, 'ja')]"
+              @click="translationJa"
+            >
+              <span v-show="locale === 'ja'" class="check-ja">
+                <IconifyIconOffline :icon="Check" />
+              </span>
+              日本語
+            </el-dropdown-item>
+            <el-dropdown-item
+              :style="getDropdownItemStyle(locale, 'ru')"
+              :class="['dark:!text-white', getDropdownItemClass(locale, 'ru')]"
+              @click="translationRu"
+            >
+              <span v-show="locale === 'ru'" class="check-ru">
+                <IconifyIconOffline :icon="Check" />
+              </span>
+              русский язык Русский
+            </el-dropdown-item>
+            <el-dropdown-item
+              :style="getDropdownItemStyle(locale, 'ko')"
+              :class="['dark:!text-white', getDropdownItemClass(locale, 'ko')]"
+              @click="translationKo"
+            >
+              <span v-show="locale === 'ko'" class="check-ko">
+                <IconifyIconOffline :icon="Check" />
+              </span>
+              한국인
             </el-dropdown-item>
           </el-dropdown-menu>
         </template>
@@ -169,6 +207,18 @@ const { t, locale, translationCh, translationEn } = useTranslationLang();
   }
 
   .check-en {
+    position: absolute;
+    left: 20px;
+  }
+  .check-ja {
+    position: absolute;
+    left: 20px;
+  }
+  .check-ru {
+    position: absolute;
+    left: 20px;
+  }
+  .check-ko {
     position: absolute;
     left: 20px;
   }

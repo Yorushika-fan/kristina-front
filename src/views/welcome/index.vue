@@ -139,7 +139,7 @@ const optionsBasis: Array<OptionsType> = [
       >
         <el-card shadow="never">
           <div class="flex justify-between">
-            <span class="text-md font-medium">解决概率</span>
+            <span class="text-md font-medium">评论增长率</span>
           </div>
           <div
             v-for="(item, index) in progressData"

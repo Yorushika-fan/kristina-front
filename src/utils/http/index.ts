@@ -13,6 +13,7 @@ import { stringify } from "qs";
 import NProgress from "../progress";
 import { getToken, formatToken } from "@/utils/auth";
 import { useUserStoreHook } from "@/store/modules/user";
+import { da, ur } from "@faker-js/faker";
 
 // 相关配置请参考：www.axios-js.com/zh-cn/docs/#axios-request-config-1
 const defaultConfig: AxiosRequestConfig = {
@@ -73,7 +74,9 @@ class PureHttp {
           return config;
         }
         /** 请求白名单，放置一些不需要token的接口（通过设置请求白名单，防止token过期后再请求造成的死循环问题） */
-        const whiteList = ["/refresh-token", "/login"];
+        const whiteList = ["/api/refresh", "/login"];
+        console.log("开始是事实");
+        console.log(whiteList.find(ur => ur === config.url) ? 1 : 2);
         return whiteList.find(url => url === config.url)
           ? config
           : new Promise(resolve => {
@@ -85,6 +88,7 @@ class PureHttp {
                   if (!PureHttp.isRefreshing) {
                     PureHttp.isRefreshing = true;
                     // token过期刷新
+                    console.log("axios");
                     useUserStoreHook()
                       .handRefreshToken({ refreshToken: data.refreshToken })
                       .then(res => {
@@ -95,6 +99,7 @@ class PureHttp {
                       })
                       .finally(() => {
                         PureHttp.isRefreshing = false;
+                        console.log("finally");
                       });
                   }
                   resolve(PureHttp.retryOriginalRequest(config));
@@ -110,6 +115,7 @@ class PureHttp {
             });
       },
       error => {
+        console.log(error);
         return Promise.reject(error);
       }
     );
@@ -122,7 +128,8 @@ class PureHttp {
       (response: PureHttpResponse) => {
         const $config = response.config;
         // 关闭进度条动画
-        NProgress.done();
+        console.log(response);
+        NProgress.done(); 
         // 优先判断post/get等方法是否传入回调，否则执行初始化设置等回调
         if (typeof $config.beforeResponseCallback === "function") {
           $config.beforeResponseCallback(response);

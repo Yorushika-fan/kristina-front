@@ -1,0 +1,185 @@
+buttons:
+  hsLoginOut: 로그인아웃
+  hsadd: 추가하다
+  hscloseAllTabs: 모든 탭 닫기
+  hscloseCurrentTab: 현재 탭 닫기
+  hscloseLeftTabs: 왼쪽 탭 닫기
+  hscloseOtherTabs: 다른 탭 닫기
+  hscloseRightTabs: 오른쪽 탭 닫기
+  hscollapseAll: 모든 축소
+  hscontentExitFullScreen: 콘텐츠 종료전체 화면
+  hscontentFullScreen: 콘텐츠 전체화면
+  hsdelete: 삭제
+  hsedit: ''
+  hsexitfullscreen: 전체 화면 종료
+  hsexpendAll: 모두 확장
+  hsfullscreen: 전체화면
+  hslogin: 로그인
+  hsmark: 표시/취소
+  hsrefreshRoute: 경로 새로 고침
+  hsreload: 새로고침
+  hssave: 구하다
+  hssearch: 찾다
+  hssystemSet: 프로젝트 구성 열기
+  hswholeExitFullScreen: 전체 종료
+  hswholeFullScreen: 전체화면
+login:
+  alipayLogin: 알리페이 로그인
+  back: 뒤쪽에
+  definite: 명확한
+  forget: 비밀번호 분실?
+  getVerifyCode: 코드를 확인받을
+  info: 초
+  login: 로그인
+  loginSuccess: 로그인 성공
+  password: 비밀번호
+  passwordDifferentReg: 두 비밀번호가 일치하지 않습니다!
+  passwordReg: 비밀번호를 입력 해주세요
+  passwordRuleReg: 비밀번호 형식은 8~18자리 숫자의 조합이어야 합니다.
+  passwordSureReg: 확인 비밀번호를 입력해주세요
+  passwordUpdateReg: 비밀번호가 업데이트되었습니다.
+  phone: 핸드폰
+  phoneCorrectReg: 올바른 전화번호 형식을 입력하세요.
+  phoneLogin: 전화 로그인
+  phoneReg: 전화번호를 입력해주세요
+  privacyPolicy: 개인 정보 정책
+  qRCodeLogin: QR코드 로그인
+  qqLogin: QQ 로그인
+  readAccept: 나는 그것을 주의 깊게 읽었으며 동의합니다.
+  register: 등록하다
+  registerSuccess: 등록 성공
+  remember: 며칠은 로그인할 필요가 없습니다
+  rememberInfo: 확인 및 로그인 후, 지정된 일수 이내에 사용자 이름과 비밀번호를 입력하지 않고 시스템에 자동으로 로그인됩니다.
+  smsVerifyCode: SMS 확인 코드
+  sure: 확실한 비밀번호
+  test: 모의 테스트
+  thirdLogin: 세 번째 로그인
+  tickPrivacy: 개인정보 보호정책을 선택해 주세요
+  tip: 코드를 스캔한 후 "확인"을 클릭하면 로그인이 완료됩니다.
+  username: 사용자 이름
+  usernameReg: 사용자 이름을 입력하세요
+  verifyCode: 코드 확인
+  verifyCodeCorrectReg: 올바른 인증 코드를 입력하세요.
+  verifyCodeReg: 인증코드를 입력해주세요
+  verifyCodeSixReg: 6자리 인증번호를 입력해주세요
+  weChatLogin: 위챗 로그인
+  weiboLogin: 웨이보 로그인
+menus:
+  externalLink: Vue-Pure-관리자
+  hsAble: 할 수 있는
+  hsAbout: 에 대한
+  hsArticleManagement: ''
+  hsBarcode: 바코드
+  hsCascader: 지역 캐스케이더
+  hsCategoryManagement: ''
+  hsCheckButton: 확인 버튼
+  hsCheckCard: 체크카드
+  hsChildMenuoverflow: 하위 메뉴 오버플로 도구 설명 텍스트 표시
+  hsCollapse: 무너지다
+  hsColorPicker: 색상 선택기
+  hsDatePicker: 날짜 선택기
+  hsDateTimePicker: 날짜시간선택기
+  hsDebounce: 디바운스
+  hsDept: 부서 관리
+  hsDownload: 다운로드
+  hsElButton: 단추
+  hsEmbeddedDoc: 내장된 문서
+  hsEpDocument: 엘리먼트-플러스
+  hsExcel: 엑셀 내보내기
+  hsExternalDoc: 문서 외부
+  hsExternalPage: 외부 페이지
+  hsFail: 실패 페이지
+  hsFive: '500'
+  hsFormDesign: 양식 디자인
+  hsIconSelect: 아이콘 선택
+  hsInfiniteScroll: 테이블 무한 스크롤
+  hsLineTree: 라인트리
+  hsLinkManagement: ''
+  hsList: 목록 페이지
+  hsListCard: 카드 목록 페이지
+  hsLoginLog: 로그인 로그
+  hsMenuTree: 메뉴 트리
+  hsMenuoverflow: 메뉴 오버플로 도구 설명 텍스트 표시
+  hsOnlineUser: 온라인 사용자
+  hsOperationLog: 작업 로그
+  hsOptimize: 디바운스, 스로틀, 복사, 길게 누르기 지시어
+  hsPdf: PDF 미리보기
+  hsPiniaDocument: 피니아
+  hsPinyin: 병음
+  hsPrint: 인쇄
+  hsProgress: 진전
+  hsPureTableBase: 기본 사용량
+  hsPureTableHigh: 높은 사용량
+  hsQrcode: QR 코드
+  hsResult: 결과 페이지
+  hsRipple: 리플
+  hsRole: 역할 관리
+  hsRouterDocument: Vue-Router
+  hsSensitive: 민감한 필터
+  hsStatistic: 통계량
+  hsSuccess: 성공 페이지
+  hsSwiper: 스와이프 플러그인
+  hsSystemLog: 시스템 로그
+  hsSystemMenu: 메뉴 관리
+  hsTag: 꼬리표
+  hsTagManagement: ''
+  hsTailwindcssDocument: 순풍
+  hsText: 텍스트 줄임표
+  hsTimePicker: 시간 선택기
+  hsTimeline: 타임 라인
+  hsUpload: 파일 업로드
+  hsUser: 사용자 관리
+  hsVideoFrame: 비디오 프레임 캡처
+  hsVirtualList: 가상 목록
+  hsViteDocument: 비테
+  hsVueDocument: Vue3
+  hsWatermark: 워터마크
+  hsWavesurfer: 오디오 시각화
+  hsabnormal: 비정상적인 페이지
+  hsanimatecss: AnimateCss 선택기
+  hsblogManagement: ''
+  hsboard: 페인트 보드
+  hsbutton: 버튼 애니메이션
+  hscomponents: 구성요소
+  hscontextmenu: 상황에 맞는 메뉴
+  hscountTo: 디지털 애니메이션
+  hscropping: 사진 자르기
+  hsdanmaku: 탄마쿠
+  hsdialog: 대화
+  hsdraggable: 드래그 가능
+  hseditor: 편집자
+  hsempty: 빈 페이지
+  hsflowChart: 흐름도
+  hsfourZeroFour: '404'
+  hsfourZeroOne: '403'
+  hsguide: 가이드
+  hshome: 집
+  hsjsoneditor: JSON 편집기
+  hslogin: 로그인
+  hsmap: 지도
+  hsmenu1: 메뉴1
+  hsmenu1-1: 메뉴1-1
+  hsmenu1-2: 메뉴1-2
+  hsmenu1-2-1: 메뉴1-2-1
+  hsmenu1-2-2: 메뉴1-2-2
+  hsmenu1-3: 메뉴1-3
+  hsmenu2: 메뉴2
+  hsmenus: 다단계 메뉴
+  hsmessage: 메시지 팁
+  hsseamless: 원활한 스크롤
+  hssegmented: 분할됨
+  hsselector: 범위 선택기
+  hssplitPane: 분할 창
+  hssysManagement: 시스템 관리
+  hssysMonitor: 시스템 모니터
+  hstabs: 탭 작동
+  hstypeit: 이것을 입력해라
+  hsvideo: 동영상
+  hswaterfall: 폭포
+  job: ''
+  permission: 권한 관리
+  permissionButton: 버튼 권한
+  permissionPage: 페이지 권한
+  pureutilsLink: 순수 관리 유틸리티
+status:
+  hsLoad: 로드 중...
